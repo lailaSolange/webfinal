@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contable</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel= "shortcut icon" href= "img/faviconDiegoMusso.png.ico" type= "image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+<body>
+    <div class="contenedores">
+    <!-- Header -->
+        <header>
+            <!-- Navegador -->
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="inicio.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="seguros.html">Seguros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contable.html">Contable</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="capacitaciones.html">Capacitaciones</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="nosotros.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                  </ul>
+                </div>
+                <img src="img/logo.jpeg" alt="logo empresarial" class= "heroImg">
+            </nav>
+        
+                <section class= "texHeader">
+                    <h1>DIEGO MUSSO - ESTUDIO INTEGRAL</h1>
+                </section>
+                <div class= "wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+        </header>
+
+    <!-- Main -->
+        <main class= "contable">
+            <!-- Presentación del área -->
+            <section class= "areaContable">
+                <h2><b class="contableTitle">ÁREA CONTABLE</b></h2>
+                    <p class="centrar arial textoPrincipal">En nuestro estudio también contamos con profesionales que te ayudarán a tomar las mejores decisiones en lo que respecta a tus finanzas. 
+                    Nuestras asesrorías van dirigidas tanto a empresas como a personas. 
+                    </p>
+            </section>
+            <!-- Servicios contables que se ofrecen -->
+            <section class="serviciosContables">    
+                <h2 class="titulo">¿Qué servicios ofrecemos?</h2>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Sociedades
+                          </button>
+                        </h2>
+                      </div>    
+                      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>  •		Constitución de sociedades </p>
+                            <p>  •		Asesoramiento en materia societaria </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Área Impositiva
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>  •		Liquidación de impuestos.</p> 
+                            <p>  •		Asesoramiento en materia impositiva.</p>
+                            <p>  •		Planificación impositiva para la toma de decisiones.</p>
+                            <p>  •		Exenciones impositivas.</p> 
+                            <p>  •		Monotributo.</p> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Área Laboral
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>  •		Liquidaciones de impuestos, cargas sociales.</p> 
+                            <p>  •		Asesoramiento integral en materia laboral.</p>
+                            <p>  •		Trámites en el Ministerio de Trabajo.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion" id="accordionExample"></div>
+                    <div class="card">
+                      <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Área Contable
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>  •		Implementación de sistemas informáticos contables</p> 
+                            <p>  •		Asesoramiento contable integral.</p>
+                            <p>  •		Auditorías de estados contables.</p>
+                            <p>  •		Reportes contables para la toma de decisiones.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingFive">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Área Financiera
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>  •		Estados financieros, flujo de fondos para análisis crediticio por entidades financieras.</p> 
+                            <p>  •		Asesoramiento.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section> 
+        
+    <!-- Footer -->
+            <footer class="footer">
+                <div class="Footer__contenedor container">
+                    <div class="footer__contact">
+                        <div class="footer__text">
+                            <h3 class="title">¿Querés ponerte en contacto con nosotros?</h3>
+                            <p class="footer__copy">Podes hacerlo mediante nuestras redes sociales</p>
+                    
+    
+                            <div class="footer__social">
+                                <a href="https://m.facebook.com/DiegoMussoEstudioIntegral" class="footer__link">
+                                    <img src="img/facebook.svg" class= "footer__icon" alt="icono de facebook">
+                                </a>
+                                <a href="https://www.instagram.com/diegomusso_estudiointegral/" class="footer__link">
+                                    <img src="img/instagram.svg" class= "footer__icon" alt="icono de instagram">
+                                </a>
+                                <a href="https://wa.me/5493472520261" class="footer__link">
+                                    <img src="img/whatsapp.svg" class= "footer__icon" alt="icono de whatsapp">
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <figure class="footer_picture">
+                            <img src="img/contactenos.svg" class= "footer_img" alt="imagen ilustrativa de Contacto y redes sociales">
+                        </figure>
+                    </div>
+    
+                    <p class="footer__copyright">
+                        Sitio web creado por &copy; LailaSolange
+                    </p>
+                </div>
+            </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
